@@ -18,7 +18,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      BASE_URL: /advanced-ab-testing
+      BASE_URL: /advanced-ab-test-course
     steps:
       - uses: actions/checkout@v4
 
