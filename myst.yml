@@ -1,0 +1,67 @@
+version: 1
+
+project:
+  title: "Advanced A/B Testing"
+  subtitle: "Variance Reduction & Experimentation at Scale"
+  authors:
+    - name: "Self-Study Edition"
+  github: https://github.com/vkoul/advanced-ab-testing
+  open_access: true
+  license: CC-BY-4.0
+  toc:
+    - file: intro
+    - title: "Study Notes"
+      children:
+        - file: study_notes/week01_statistical_foundations
+          title: "Week 1: Statistical Foundations"
+        - file: study_notes/week02_real_world_analysis
+          title: "Week 2: Real-World A/B Analysis"
+        - file: study_notes/week03_sample_size_mde
+          title: "Week 3: Sample Size & MDE"
+        - file: study_notes/week04_stratification
+          title: "Week 4: Stratification"
+        - file: study_notes/week05_cuped
+          title: "Week 5: CUPED"
+        - file: study_notes/week06_ratio_metrics
+          title: "Week 6: Ratio Metrics & Linearization"
+        - file: study_notes/week07_multiple_testing
+          title: "Week 7: Multiple Testing & Infrastructure"
+        - file: study_notes/week08_sequential_testing
+          title: "Week 8: Sequential Testing"
+    - title: "Assignments"
+      children:
+        - file: assignments/week01_assignment
+          title: "Week 1 Assignment"
+        - file: assignments/week02_assignment
+          title: "Week 2 Assignment"
+        - file: assignments/week03_assignment
+          title: "Week 3 Assignment"
+        - file: assignments/week04_assignment
+          title: "Week 4 Assignment"
+        - file: assignments/week05_assignment
+          title: "Week 5 Assignment"
+        - file: assignments/week06_assignment
+          title: "Week 6 Assignment"
+        - file: assignments/week07_assignment
+          title: "Week 7 Assignment"
+        - file: assignments/week08_assignment
+          title: "Week 8 Assignment"
+    - title: "Capstone"
+      children:
+        - file: capstone/capstone_overview
+          title: "Capstone Project"
+    - title: "Reference"
+      children:
+        - file: reference/cheat_sheet
+          title: "Cheat Sheet"
+        - file: reference/formula_reference
+          title: "Formula Reference"
+        - file: reference/decision_flowchart
+          title: "Decision Flowchart"
+
+site:
+  title: "Advanced A/B Testing"
+  favicon: favicon.ico
+  options:
+    logo_text: "Advanced A/B Testing"
+  template: book-theme
